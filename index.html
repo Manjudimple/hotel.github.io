@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Billing</title>
+    <style>
+        body{
+            background-color:lightsteelblue;
+        }
+     header{
+        text-align: center;
+        font-size: 30px;
+        color:maroon;
+        font-weight: bold;
+        text-decoration:underline;
+        margin-bottom: 20px;
+     }   
+     #container{
+         display: inline;
+     }
+     span{
+         font-size: 15px;
+         font-family: "elephant";
+         font-weight: bolder;
+         color: green;
+         text-align: center;
+     }
+     .menulist{
+        margin-right: 20px;
+        display: inline-block;
+     }
+    </style>
+</head>
+<body>
+    <header>
+Raichur Famous Hotel
+    </header>
+    <div id=container>
+        <form>
+            <!--Starters-->
+<div class="menulist">
+    <span>Starters</span>
+<br>
+<select id=startlist multiple>
+<option value=ff>French Fries</option>
+<option value=gm>Gobi Manchurian</option>
+<option>Gobi 65</option>
+<option>Aalo 65</option>
+<option>Masala Papad</option>
+<option>Tomato Soup</option>
+<option>Veg Albela</option>
+<option>Noodles</option>
+<option>Nuggets</option>
+</select>
+</div>
+<div class="menulist"><!--Main Dishes-->
+    <span>Main Dishes</span>
+    <br>
+    <select  id=mainlist multiple>
+        <option>Chapati</option>
+        <option>Naan</option>
+        <option>Garlic Naan</option>
+        <option>Kulcha</option>
+        <option>Butter Naan</option>
+        <option>Parota</option>
+        <option>Aalo Parota</option>
+        <option>Gobi Parota</option>
+        <option>Meethi Parota</option>
+    </select></div>
+<div class="menulist"><!--Curry-->
+    <span>Curry</span>
+    <br>
+    <select id=currylist multiple>
+        <option>Palak Paneer</option>
+        <option>Paneer Butter Masala</option>
+        <option>Kaju Masala</option>
+        <option>Mixed Vegetable Curry</option>
+        <option>Daal Tadaka</option>
+        <option>Daal Fry</option>
+        <option>Tomoato Curry</option>
+        <option>Bendi Fry</option>
+        <option>Aalo Curry</option>
+        </select></div>
+<div class="menulist"><!--Rice-->
+    <span>Rice Items</span>
+    <br>
+    <select id=ricelist multiple>
+        <option>White Rice</option>
+        <option>Curd Rice</option>
+        <option>Veg Pulao</option>
+        <option>Fried Rice</option>
+        <option>Masala Rice</option>
+        <option>Daal Kichidi</option>
+        <option>Bisibelebath</option>
+        <option>Puliyogare</option>
+        <option>Gobi Rice</option>
+        </select></div>
+<div class=menulist><!--Cool Drinks and Shakes-->
+    <span>Cool Drinks And Shakes</span>
+    <br>
+    <select id=cooldrinklist multiple>
+        <option>Lemonade</option>
+        <option>Virgin Mojito</option>
+        <option>Oreo Shake</option>
+        <option>Kitkat Shake</option>
+        <option>Banana Smoothie</option>
+        <option>Mango Shake</option>
+        <option>Cold Coffee</option>
+        <option>Apple Juice</option>
+        <option>Chocolate Smoothie</option>
+        </select>
+    </div>  
+</div>
+<div>
+<textarea name=output id=display readonly height="300" width=500></textarea>
+</div>
+<script>
+document.getElementById("display").innerHTML="Bill";
+
+</script>
+
+
+
+
+
+          
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ 
+
+
+
+
+
+
+
+
+
+</form> 
+</body>
+</html>
